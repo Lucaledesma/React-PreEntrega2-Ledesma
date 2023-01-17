@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../ButtonDetalle/ButtonDetalle";
 import "./item.css";
 
 import { Link } from "react-router-dom";
@@ -14,7 +15,7 @@ function Item({ id, titulo, imagen, stock, precio }) {
             <p>${precio}</p>
             <p><b>Stock disponible:</b> {stock}</p>
             <Link to={urlDetail}>
-                <button className="producto-agregar">Ver Detalle</button>
+                <Button nombre="Ver Detalle"></Button>
             </Link>
         </div>
     </div>

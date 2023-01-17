@@ -1,10 +1,11 @@
+import { Link } from 'react-router-dom';
 import './cartwidget.css';
 
 function CartWidget () {
     return (
-        <a className="link-carrito" href="/">
+        <Link className="link-carrito" to="/">
             <i className="bi bi-cart-fill"></i>
-        </a>
+        </Link>
     );
 }
 
