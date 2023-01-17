@@ -1,0 +1,23 @@
+.container {
+    border: 1px solid gray;
+    max-width: max-content;
+    padding-block: 0.5rem;
+    padding-inline: 0.8rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btnRestar,
+  .btnSumar {
+    border: 0;
+    background-color: transparent;
+    color: #494949;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .numero {
+    font-size: 1rem;
+  }

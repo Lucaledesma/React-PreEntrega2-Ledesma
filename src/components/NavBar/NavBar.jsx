@@ -10,7 +10,8 @@ function NavBar() {
       
       <ul className="nav-menu">
         <NavItem categoria="Deportes"/>
-        <NavItem categoria="Aventura"/>
+        <NavItem categoria="Cooperativo"/>
+        <NavItem categoria="Disparos"/>
         <NavItem categoria="Mundo Abierto"/>
         <CartWidget />
       </ul>
