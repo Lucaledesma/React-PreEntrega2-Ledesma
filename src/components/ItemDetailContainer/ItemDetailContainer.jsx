@@ -16,8 +16,8 @@ function ItemDetailContainer() {
         setProducto(response);
       })
       .catch((error) => {
-        alert(`Error: ${error}`
-      )});
+        alert(`Error: ${error}`)
+      });
   }, [itemid]);
 
   return (
