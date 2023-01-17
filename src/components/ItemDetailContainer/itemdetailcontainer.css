@@ -1,14 +1,4 @@
-.card-detail_img{
-  height: 310px;
-  object-fit: cover;
-}
-
-.card-detail_img img{
-  width: 17rem;
-}
-
 .card-detail_main{
-  
   text-align: center;
   margin: 40px auto;
   min-height: 600px;
@@ -20,12 +10,30 @@
   background-color: #fff;
   overflow: hidden;  
   transition: all 0.20s ease-in;
-  cursor: pointer;
+
+  background-color: #fdf7b0;
+  border-radius: 20px;
+  padding-block: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 2rem;
 }
 
+.card-detail_img img{
+  width: 17rem;
+  border-radius: 10px;
+}
 
 .card-detail_detail{
-  padding: 12px 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: .5rem;
 }
 
 small{

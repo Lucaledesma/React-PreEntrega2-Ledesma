@@ -1,11 +1,11 @@
 import React from 'react';
 import './itemcount.css';
 
-function ItemCount() {
+function ItemCount( {stockDisponible} ) {
   const [cant, setCant] = React.useState(1);
 
   function sumar() {
-    if (cant < 9) {
+    if (cant < Number(`${stockDisponible}`)) {
       setCant(cant + 1);
     }
   }

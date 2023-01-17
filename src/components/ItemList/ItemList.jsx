@@ -10,8 +10,9 @@ function ItemList(props) {
           key={item.id}
           id={item.id}
           titulo={item.titulo}
-          precio={item.precio}
           imagen={item.imagen}
+          stock={item.stock}
+          precio={item.precio}
         />
       ))}
     </div>

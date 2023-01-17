@@ -1,11 +1,12 @@
+import { Link } from 'react-router-dom';
 import './navitem.css';
 
-function NavItem( {categoria} ) {
+function NavItem( {nombre, categoria} ) {
     return (
         <li className="nav-item">
-          <a className="nav-link" href="/">
-            {categoria}
-          </a>
+          <Link className="nav-link" to={categoria}>
+            {nombre}
+          </Link>
         </li>
     );
 }

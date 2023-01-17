@@ -3,7 +3,7 @@ import "./item.css";
 
 import { Link } from "react-router-dom";
 
-function Item({ id, titulo, precio, imagen }) {
+function Item({ id, titulo, imagen, stock, precio }) {
   const urlDetail = `/item/${id}`;
 
   return (
@@ -12,8 +12,9 @@ function Item({ id, titulo, precio, imagen }) {
         <div className="producto-descripcion">
             <p><b>{titulo}</b></p>
             <p>${precio}</p>
+            <p><b>Stock disponible:</b> {stock}</p>
             <Link to={urlDetail}>
-                <button className="producto-agregar" id={id}>Ver Detalle</button>
+                <button className="producto-agregar">Ver Detalle</button>
             </Link>
         </div>
     </div>

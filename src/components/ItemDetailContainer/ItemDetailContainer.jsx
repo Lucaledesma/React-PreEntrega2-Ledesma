@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { getSingleItem } from "../../data/asyncMockPromise";
+import ItemCount from "../ItemCount/ItemCount";
 import "./itemdetailcontainer.css";
 
 function ItemDetailContainer() {
@@ -26,8 +27,12 @@ function ItemDetailContainer() {
       <div className="card-detail_detail">
         <h1>{producto.titulo}</h1>
         <h2 className="priceTag">$ {producto.precio}</h2>
+        <h3>Stock disponible: {producto.stock}</h3>
         <small>{producto.detalle}</small>
       </div>
+      <ItemCount stockDisponible={producto.stock} />
+
+      <button>Agregar al carrito</button>
     </div>
   );
 }
