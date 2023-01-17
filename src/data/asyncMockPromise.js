@@ -6,7 +6,7 @@ const productos = [
         stock: 5,
         precio: 1500,
         categoria: "deportes",
-        detalle: ""
+        detalle: "Captain Tsubasa: Rise of New Champions, basado en la aclamada serie de animé, es un juego de fútbol y acción con las gráficas más nuevas."
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ const productos = [
         stock: 5,
         precio: 1600,
         categoria: "deportes",
-        detalle: ""
+        detalle: "WWE 2K22 es un videojuego de lucha libre profesional. Es el vigésimo-tercer juego en la WWE y el noveno bajo el estandarte de WWE 2K."
     },
     {
         id: 3,
@@ -24,16 +24,16 @@ const productos = [
         stock: 5,
         precio: 1700,
         categoria: "deportes",
-        detalle: ""
+        detalle: "Juego contra los equipos de la NBA, crea tu propia dinastía como director del club o lleva la liga en una nueva dirección como comisario en NBA 2K23."
     },
     {
         id: 4,
-        titulo: "Ryders Public",
+        titulo: "Ryders Republic",
         imagen: "../../assets/img/deportes/04.jpg",
         stock: 5,
         precio: 1800,
         categoria: "deportes",
-        detalle: ""
+        detalle: "Compite en Ryders Republics: ¡choca, grinda y ábrete paso hasta la meta! Personaliza a tu personaje para que lo vean tus amigos y competidores."
     },
     {
         id: 5,
@@ -42,7 +42,7 @@ const productos = [
         stock: 5,
         precio: 1900,
         categoria: "deportes",
-        detalle: ""
+        detalle: "Ponte al volante en una nueva temporada con coches rediseñados y nuevas reglas que definen las carreras. Pon a prueba tus habilidades en F1 2022"
     },
     {
         id: 6,
@@ -51,7 +51,7 @@ const productos = [
         stock: 5,
         precio: 2000,
         categoria: "deportes",
-        detalle: ""
+        detalle: "Descubre las novedades de FIFA 23 con la tecnología HyperMotion2, los torneos de la FIFA World Cup™ masculina y femenil, el Cross-Play y más."
     },
     {
         id: 7,
@@ -60,7 +60,7 @@ const productos = [
         stock: 5,
         precio: 1500,
         categoria: "cooperativo",
-        detalle: ""
+        detalle: "A Way Out es un intenso juego de aventuras cooperativo en el que los personajes se fugan de la cárcel y unen fuerzas en busca de un objetivo común."
     },
     {
         id: 8,
@@ -69,7 +69,7 @@ const productos = [
         stock: 5,
         precio: 1600,
         categoria: "cooperativo",
-        detalle: ""
+        detalle: "Back 4 Blood es un emocionante juego de disparos en primera persona cooperativo, de los creadores de la aclamada franquicia de Left 4 Dead."
     },
     {
         id: 9,
@@ -78,7 +78,7 @@ const productos = [
         stock: 5,
         precio: 1700,
         categoria: "cooperativo",
-        detalle: ""
+        detalle: "It Takes Two es un videojuego de acción y aventura con elementos de plataformas desarrollado por Hazelight Studios y publicado por Electronic Arts."
     },
     {
         id: 10,
@@ -87,7 +87,7 @@ const productos = [
         stock: 5,
         precio: 1800,
         categoria: "cooperativo",
-        detalle: ""
+        detalle: "Crash Team Racing Nitro Fueled es un videojuego, perteneciente al género de videojuego de kartings desarrollado por el estudio Beenox."
     },
     {
         id: 11,
@@ -96,7 +96,7 @@ const productos = [
         stock: 5,
         precio: 1900,
         categoria: "cooperativo",
-        detalle: ""
+        detalle: "Mortal Kombat 11 (MK11) es la undécima y más reciente entrega principal de la saga de Mortal Kombat, siendo además la vigésima segunda entrega de la misma."
     },
     {
         id: 12,
@@ -105,7 +105,7 @@ const productos = [
         stock: 5,
         precio: 2000,
         categoria: "cooperativo",
-        detalle: ""
+        detalle: "Little Nightmares II es un juego de aventura de suspense en el que juegas como Mono, un joven chico atrapado en un mundo que ha sido tergiversado."
     },
     {
         id: 13,
@@ -114,7 +114,7 @@ const productos = [
         stock: 5,
         precio: 1500,
         categoria: "disparos",
-        detalle: ""
+        detalle: "Cambia las reglas de la guerra y descubre batallas inesperadas en el amplio universo de Battlefield 2042."
     },
     {
         id: 14,
@@ -123,7 +123,7 @@ const productos = [
         stock: 5,
         precio: 1600,
         categoria: "disparos",
-        detalle: ""
+        detalle: "Desarrollado por id Software, DOOM® Eternal™ es la secuela directa del juego galardonado y más vendido DOOM® (2016)."
     },
     {
         id: 15,
@@ -132,7 +132,7 @@ const productos = [
         stock: 5,
         precio: 1700,
         categoria: "disparos",
-        detalle: ""
+        detalle: "Call of Duty: Modern Warfare 2 es una nueva entrega de la saga de acción first person shooter a cargo de Infinity Ward y Activision."
     },
     {
         id: 16,
@@ -141,7 +141,7 @@ const productos = [
         stock: 5,
         precio: 1800,
         categoria: "disparos",
-        detalle: ""
+        detalle: "Sniper Elite 5, la nueva entrega de la galardonada franquicia, ofrece una experiencia sin parangón a la hora de disparar con un fusil de francotirador."
     },
     {
         id: 17,
@@ -150,7 +150,7 @@ const productos = [
         stock: 5,
         precio: 1900,
         categoria: "disparos",
-        detalle: ""
+        detalle: "Insurgency: Sandstorm es un videojuego de acción ambientado en la guerra de Oriente Medio, que apostando por la primera persona, apuesta por el realismo."
     },
     {
         id: 18,
@@ -159,7 +159,7 @@ const productos = [
         stock: 5,
         precio: 2000,
         categoria: "disparos",
-        detalle: ""
+        detalle: "Mafia III es un videojuego de acción y aventura de mundo abierto desarrollado por la compañía estadounidense Hangar 13 y distribuido por 2K Games."
     },
     {
         id: 19,
@@ -168,7 +168,7 @@ const productos = [
         stock: 5,
         precio: 1500,
         categoria: "mundoabierto",
-        detalle: ""
+        detalle: "ELDEN RING ofrece vastos parajes de fantasía y sombrías e intricadas mazmorras que están conectadas de forma fluida y sin interrupciones."
     },
     {
         id: 20,
@@ -177,7 +177,7 @@ const productos = [
         stock: 5,
         precio: 1600,
         categoria: "mundoabierto",
-        detalle: ""
+        detalle: "God of War Ragnarök es un videojuego de acción y aventuras desarrollado por Santa Monica Studio y publicado por Sony Interactive Entertainment (SIE)."
     },
     {
         id: 21,
@@ -186,7 +186,7 @@ const productos = [
         stock: 5,
         precio: 1700,
         categoria: "mundoabierto",
-        detalle: ""
+        detalle: "Red Dead Redemption 2, estilizado Red Dead Redemption II, es un videojuego de acción-aventura western basado en el drama, en un mundo abierto."
     },
     {
         id: 22,
@@ -195,7 +195,7 @@ const productos = [
         stock: 5,
         precio: 1800,
         categoria: "mundoabierto",
-        detalle: ""
+        detalle: "The Witcher 3: Wild Hunt es un videojuego de rol desarrollado y publicado por la compañía polaca CD Projekt RED."
     },
     {
         id: 23,
@@ -204,7 +204,7 @@ const productos = [
         stock: 5,
         precio: 1900,
         categoria: "mundoabierto",
-        detalle: ""
+        detalle: "Assassin's Creed Valhalla es un videojuego desarrollado por Ubisoft Montreal y publicado por Ubisoft."
     },
     {
         id: 24,
@@ -213,7 +213,7 @@ const productos = [
         stock: 5,
         precio: 2000,
         categoria: "mundoabierto",
-        detalle: ""
+        detalle: "Far Cry 6 es un videojuego de disparos y mundo abierto en primera persona desarrollado por Ubisoft Toronto y publicado por Ubisoft."
     }
 ];
 
@@ -238,3 +238,13 @@ export function getSingleItem(itemid) {
       }, 0);
     });
 }
+
+export function getItemsByCategory(categoryid) {
+    let itemsCat = productos.filter((item) => item.categoria === categoryid);
+  
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        resolve(itemsCat);
+      }, 0);
+    });
+  }

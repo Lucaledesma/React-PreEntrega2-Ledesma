@@ -15,11 +15,9 @@ function App() {
       <Routes>
         <Route path="/" element={<ItemListContainer />} />
         
-        {/* <Route path="/category/:categoryid" element={<HomePage />} /> */}
+        <Route path="/category/:categoryid" element={<ItemListContainer />} />
 
         <Route path="/item/:itemid" element={<ItemDetailContainer />} />
-
-        {/* <Route path="/contacto" element={<h1>Conctacto</h1>} /> */}
 
         {/* <Route path="*" element={<NotFoundPage />} /> */}
       </Routes>

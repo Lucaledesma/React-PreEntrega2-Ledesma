@@ -1,11 +1,12 @@
+import { Link } from 'react-router-dom';
 import './logo.css';
 
 function Logo ( {titulo} ) {
     return (
-        <a className="logo" href="/">
+        <Link className="logo" to="/">
             <i className="bi bi-controller"></i>
             <h2>{titulo}</h2>
-        </a>  
+        </Link>  
     );
 }
 
